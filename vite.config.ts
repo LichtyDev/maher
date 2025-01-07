@@ -11,5 +11,13 @@ export default defineConfig({
       fileName: "maher",
     },
   },
+  resolve: {
+    alias: {
+      components: resolve(__dirname, "src/components"),
+      core: resolve(__dirname, "src/core"),
+      modules: resolve(__dirname, "src/modules"),
+      utils: resolve(__dirname, "src/utils"),
+    },
+  },
   plugins: [dts()],
 });

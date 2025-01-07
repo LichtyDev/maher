@@ -16,11 +16,12 @@
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
 
-    "types": ["vite/client"]
+    "types": ["vite/client"],
+    "baseUrl": "src"
   },
   "include": ["src"]
 }
