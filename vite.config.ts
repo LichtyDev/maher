@@ -8,7 +8,7 @@ export default defineConfig({
       entry: resolve(__dirname, "src/index.ts"),
       name: "Maher",
       formats: ["es"],
-      fileName: "maher",
+      fileName: "index",
     },
   },
   resolve: {
